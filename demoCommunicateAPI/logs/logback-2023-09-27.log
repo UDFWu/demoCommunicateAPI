@@ -1,0 +1,38 @@
+09:46:59.420 default [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+09:46:59.436 default [restartedMain] INFO  c.e.d.DemoCommunicateApiApplication - Starting DemoCommunicateApiApplication using Java 17.0.8.1 on ITDC-6716 with PID 15656 (D:\eclipse\demoCommunicateAPI\demoCommunicateAPI\target\classes started by user in D:\eclipse\demoCommunicateAPI\demoCommunicateAPI)
+09:46:59.438 default [restartedMain] INFO  c.e.d.DemoCommunicateApiApplication - No active profile set, falling back to 1 default profile: "default"
+09:46:59.569 default [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:46:59.575 default [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:47:01.040 default [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:47:01.062 default [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+09:47:02.271 default [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:47:02.294 default [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:47:02.295 default [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:47:02.296 default [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+09:47:02.486 default [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:47:02.486 default [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2908 ms
+09:47:02.545 default [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:47:03.269 default [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:47:03.310 default [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:3caad1cc-7a02-4eb5-a4c8-59f78b9bcaa4'
+09:47:05.555 default [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:47:05.808 default [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:47:06.375 default [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:47:06.728 default [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09:47:07.130 default [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:47:07.150 default [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:47:07.542 default [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:47:07.991 default [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@667cf2b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3476a7b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@32ac9296, org.springframework.security.web.header.HeaderWriterFilter@259dce53, org.springframework.security.web.csrf.CsrfFilter@145c3425, org.springframework.security.web.authentication.logout.LogoutFilter@5f2eed05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bdc1c84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f9a049, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b446ead, org.springframework.security.web.session.SessionManagementFilter@2b15d2e9, org.springframework.security.web.access.ExceptionTranslationFilter@60cb2ea8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2806c815]
+09:47:08.032 default [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:47:08.154 default [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:47:08.435 default [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:47:08.487 default [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:47:08.489 default [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:47:08.519 default [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:47:08.555 default [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:47:08.701 default [restartedMain] INFO  c.e.d.DemoCommunicateApiApplication - Started DemoCommunicateApiApplication in 9.794 seconds (JVM running for 11.81)
+09:48:45.816 default [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:48:45.816 default [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:48:45.818 default [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+09:48:46.582 default [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+09:48:46.627 default [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /csrf
+13:36:23.549 default [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m47s802ms100µs800ns).
